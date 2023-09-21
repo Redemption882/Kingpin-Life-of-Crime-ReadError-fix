@@ -3,8 +3,8 @@
 <h2>Description:</h2>
 <p>Modification of the Kingpin: Life of Crime v1.21 gamesrc, fixes the 
 infamous "ReadError: function pointers have moved" problem with loading 
-a savegame on Windows 11.
-Copyright Xatrix Entertainment, Interplay and iD Software.</p>
+a savegame on Windows 11.</p>
+<p>Copyright Xatrix Entertainment, Interplay and iD Software.</p>
 <h2>Compiling (Windows only):</h2>
 <p>To Compile the gamesrc you'll need to download Microsoft Visual Studio Express 2012: 
 <a href="http://download.microsoft.com/download/1/F/5/1F519CC5-0B90-4EA3-8159-33BFB97EF4D9/VS2012_WDX_ENU.iso" target="_blank"> Download</a></p>
