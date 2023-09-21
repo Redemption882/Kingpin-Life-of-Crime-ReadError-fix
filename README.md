@@ -1,7 +1,7 @@
 # Kingpin: Life of Crime v1.21 "ReadError: function pointers have moved" Load game fix
 <h2>Description:</h2>
 <p>Modification of the Kingpin: Life of Crime v1.21 gamesrc, fixes the 
-infamous "ReadError: pointer functions have moved" problem withloading 
+infamous "ReadError: pointer functions have moved" problem with loading 
 a savegame on Windows 11.
 Copyright Xatrix Entertainment, Interplay and iD Software.</p>
 <h2>Compiling (Windows only):</h2>
