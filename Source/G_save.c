@@ -1092,10 +1092,9 @@ void ReadLevel (char *filename)
 
 	// check function pointer base address
 	fread (&base, sizeof(void*), 1, f);
-
 //ReadLevel bugfix for loading/saving the game on Windows 11
 #ifdef _WIN32
-	if (base != (void *)InitGame)
+	if (base == (void *)InitGame)
 	{
 		fclose (f);
 		gi.error ("ReadLevel: function pointers have moved");
