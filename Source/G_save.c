@@ -1056,6 +1056,7 @@ void ReadLevel (char *filename)
 	int		i;
 	void	*base;
 	edict_t	*ent;
+	int     num;
 
 // BEGIN:	Xatrix/Ridah/Navigator/18-apr-1998
 	// restore nav data
@@ -1093,8 +1094,10 @@ void ReadLevel (char *filename)
 	// check function pointer base address
 	fread (&base, sizeof(void*), 1, f);
 //ReadLevel bugfix for loading/saving the game on Windows 11
+	num = 0;
 #ifdef _WIN32
-	if (base == (void *)InitGame)
+	//if (base == (void *)InitGame)
+	if (num > 0)
 	{
 		fclose (f);
 		gi.error ("ReadLevel: function pointers have moved");
