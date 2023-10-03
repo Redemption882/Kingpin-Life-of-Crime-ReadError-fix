@@ -6,7 +6,7 @@ infamous "ReadError: function pointers have moved" problem with loading
 a savegame on Windows 11.</p>
 <p>Copyright Xatrix Entertainment, Interplay and iD Software.</p>
 <h2>Installation</h2>
-<p>Download the file in the "release" tab, once you downloaded the file you need to put the "gamex86.dll" file into "Kingpin/main",
+<p>Download the file in the "release" tab (or <a href="https://github.com/Redemption882/Kingpin-Life-of-Crime-ReadError-fix/releases/download/precompiled/Precompiled.gamex86.dll.rar" target="_blank"> here </a>), once you downloaded the file you need to put the "gamex86.dll" file into "Kingpin/main",
 once you install the patch your old savegames will not work anymore, therefore, you'll need to start a new game.</p>
 <h2>Compiling (Windows only):</h2>
 <p>To Compile the gamesrc you'll need to download Microsoft Visual Studio Express 2012: 
