@@ -7,7 +7,8 @@ a savegame on Windows 11.</p>
 <p>Copyright Xatrix Entertainment, Interplay and iD Software.</p>
 <h2>Installation</h2>
 <p>Download the file in the "Release" tab (or click <a href="https://github.com/Redemption882/Kingpin-Life-of-Crime-ReadError-fix/releases/download/precompiled/Precompiled.gamex86.dll.rar" target="_blank"> here</a> to download it).</p>
-<p></p>Once you downloaded the file you need to put the "gamex86.dll" file into "Kingpin/main", after installing the patch old savegames will not work anymore, so you'll need to start a new game.</p>
+<p>Once you downloaded the file you need to put the "gamex86.dll" file into "Kingpin/main".</p>
+<p>After installing the patch old savegames will not work anymore, so you'll need to start a new game.</p>
 <h2>Compiling (Windows only):</h2>
 <p>To Compile the gamesrc you'll need to download Microsoft Visual Studio Express 2012: 
 <a href="http://download.microsoft.com/download/1/F/5/1F519CC5-0B90-4EA3-8159-33BFB97EF4D9/VS2012_WDX_ENU.iso" target="_blank"> Download</a></p>
